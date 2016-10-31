@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+    "properties": {
+      "savingsAccounts": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "number": {
+              "type": "string"
+            },
+            "iban": {
+              "type": "string"
+            },
+            "balance": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "investmentAccounts": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "number": {
+              "type": "string"
+            },
+            "iban": {
+              "type": "string"
+            },
+            "balance": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+   "required" : ["savingsAccounts"]
+}
+

@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var policify = require('../index.js');
+
+var file = process.argv[2];
+
+if (file) {
+  policify(file)
+    .pipe(process.stdout);
+}

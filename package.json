@@ -1,0 +1,32 @@
+{
+  "name": "policify",
+  "version": "0.0.7",
+  "description": "Bundle node dependencies and use them in Apigee Edge javascript policies",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js && browserify test/test-v*.js | testling && tape test/test-browserify.js"
+  },
+  "bin": {
+    "policify": "bin/policify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orangewise/policify.git"
+  },
+  "author": "Ronald Luitwieler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orangewise/policify/issues"
+  },
+  "homepage": "https://github.com/orangewise/policify#readme",
+  "dependencies": {
+    "browserify": "^13.1.1",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.5.2",
+    "tape": "^4.6.2",
+    "testling": "^1.7.1",
+    "z-schema": "^3.18.0"
+  }
+}

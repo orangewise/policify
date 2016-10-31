@@ -1,0 +1,23 @@
+{
+    "rules": {
+        "callback-return": [2, ["callback", "cb", "next"]],
+        "no-unused-vars": [ 1 ],
+        "no-console": [ 0 ],
+        "indent": [ 2, 2 ],
+        "quotes": [ 2, "single", { "avoidEscape": true } ],
+        "linebreak-style": [ 2, "unix" ],
+        "semi": [ 2, "always" ],
+        "comma-dangle": [ 2, "never" ],
+        "no-undef": [ 0 ],
+        "space-before-function-paren": [ 2, "always" ]
+    },
+    "env": {
+        "node": true,
+        "browser": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "extends": "eslint:recommended"
+}
