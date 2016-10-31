@@ -1,6 +1,6 @@
 {
   "name": "policify",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Bundle node dependencies and use them in Apigee Edge javascript policies",
   "main": "index.js",
   "scripts": {
