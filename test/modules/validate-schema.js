@@ -1,11 +1,11 @@
- var ZSchema = require('z-schema');
+var ZSchema = require('z-schema');
 
- ZSchema = new ZSchema({
-   breakOnFirstError: true,
-   noExtraKeywords: true,
-   ignoreUnknownFormats: false,
-   reportPathAsArray: true
- });
+ZSchema = new ZSchema({
+  breakOnFirstError: true,
+  noExtraKeywords: true,
+  ignoreUnknownFormats: false,
+  reportPathAsArray: true
+});
 
 var policify = {};
 
