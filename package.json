@@ -28,5 +28,16 @@
     "tape": "^4.6.2",
     "testling": "^1.7.1",
     "z-schema": "^3.18.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "apigee",
+    "policies",
+    "npm",
+    "modules",
+    "browserify",
+    "policify"
+  ]
 }
