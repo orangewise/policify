@@ -21,7 +21,7 @@ npm install policify
 In the example below we use the z-schema module in a new module 'policify'. The policify modules will be used in Apigee.
 
 ```javascript
-#./validate-schema.js
+// validate-schema.js
 var ZSchema = require('z-schema');
 
 ZSchema = new ZSchema({
