@@ -3,6 +3,7 @@ policify
 
 [![npm version][npm-badge]][npm-url]
 [![Build Status][travis-badge]][travis-url]
+[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 Bundle node dependencies and use them in Apigee Edge javascript policies. Built upon the excellent Browserify project.
 
@@ -22,22 +23,22 @@ In the example below we use the z-schema module in a new module 'policify'. The 
 
 ```javascript
 // validate-schema.js
-var ZSchema = require('z-schema');
+var ZSchema = require('z-schema')
 
 ZSchema = new ZSchema({
   breakOnFirstError: true,
   noExtraKeywords: true,
   ignoreUnknownFormats: false,
   reportPathAsArray: true
-});
+})
 
 var policify = {
   validateSchema: function (injected, schema) {
-    return ZSchema.validate(injected, schema);
+    return ZSchema.validate(injected, schema)
   }
-};
+}
 
-module.exports = policify;
+module.exports = policify
 ```
 
 #### Bundle it up with policify
@@ -62,8 +63,8 @@ policify ./validate-schema.js | uglifyjs > bundle.js
 
 ```
 ...
-var bundle = context.getVariable('bundle');
-bundle.policify.validateSchema(target, schema);
+var bundle = context.getVariable('bundle')
+bundle.policify.validateSchema(target, schema)
 ...
 ```
 

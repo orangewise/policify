@@ -4,7 +4,7 @@
   "description": "Bundle node dependencies and use them in Apigee Edge javascript policies",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/*.js && browserify test/test-v*.js | testling && tape test/test-browserify.js"
+    "test": "standard && tape test/*.js && browserify test/test-v*.js | testling && tape test/test-browserify.js"
   },
   "bin": {
     "policify": "bin/policify"
@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "concat-stream": "^1.5.2",
+    "standard": "^8.6.0",
     "tape": "^4.6.2",
     "testling": "^1.7.1",
     "z-schema": "^3.18.0"
