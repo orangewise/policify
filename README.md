@@ -48,7 +48,7 @@ npm install policify uglify-js
 policify ./validate-schema.js | uglifyjs > bundle.js
 ```
 
-#### Add it to Apigee using a JS policify
+#### Add it to Apigee using a JS policy
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
