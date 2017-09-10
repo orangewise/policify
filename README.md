@@ -15,7 +15,7 @@ npm install policify
 
 ## Usage
 
-### Bundle up the module you need would like to use in Apigee Edge
+### Bundle up the node module you would like to use in Apigee Edge
 
 #### Create a policify module
 
