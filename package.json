@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/orangewise/policify#readme",
   "dependencies": {
-    "browserify": "^13.1.1",
+    "browserify": "^14.1.0",
     "through2": "^2.0.1"
   },
   "devDependencies": {
